@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Raj Gopal Rai</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+
+<nav class="navbar"></nav>
+
+<section class="product-details">
+    <div class="image-slider">
+        <div class="product-images">
+            <img src="img/k3s1.png" class="active" alt="">
+            <img src="img/k3s2.png" alt="">
+            <img src="img/k3s3.png" alt="">
+            <img src="img/k3s4.png" alt="">
+        </div>
+    </div>
+
+    <section>
+       <!--image slider-->
+       <div class="details">
+            <h2 class="product-brand">THE CLOWNFISH</h2>
+            <p class="product-short-des">Kids Waterproof Nylon Double Coating Reversible Raincoat</p>
+            <span class="product-price">₹499</span>
+            <span class="product-actual-price">₹999</span>
+            <span class="product-discount">( 50% off )</span>
+
+            <p class="product-sub-heading">select size</p>
+
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn">add to wishlist</button>
+        </div>
+    </section>
+</section>
+
+<section class="detail-des">
+    <h2 class="heading">description</h2>
+    <p class="des">Reflector Logo at Back. Set of Top and Bottom. Printed Plastic Pouch.
+Dimensions: Top: Sleeve Length from Shoulder- 23 inches, Chest- 21 inches, Top Length- 22 inches. The Bottom or Pant Length is 33 inches.
+Material: Made from good quality Polyester with PU fabric double layering. Inner material is PVC.
+Construction: Made from Polyester with PU double layer. Inner material is PVC. Every joint is seam sealed with additional leak proof stitching. Overlaying flap with snap buttons over zippers prevents water seepage. High collars and adjustable hood. Good quality elastics in trousers and sleeves. Jacket with inner pocket for mobile or other accessories.
+
+</p>
+</section>
+
+<div id="cartPopup" class="popup">
+    <div class="popup-content">
+        <span class="close-popup" onclick="closeCartPopup()">&times;</span>
+        <p>Your item has been successfully added to the cart.</p>
+    </div>
+</div>
+
+
+
+<footer>
+
+</footer>
+
+<script src="nav.js"></script>
+<script src="script.js"></script>
+<script src="product.js"></script>
+<script src="footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Raj Gopal Rai</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+
+<nav class="navbar"></nav>
+
+<section class="product-details">
+    <div class="image-slider">
+        <div class="product-images">
+            <img src="img/a1s1.png" class="active" alt="">
+
+        </div>
+    </div>
+
+    <section>
+       <!--image slider-->
+       <div class="details">
+            <h2 class="product-brand">Lifelong</h2>
+            <p class="product-short-des">Sports Jersey/Tshirts And Shorts For Boys</p>
+            <span class="product-price">₹249</span>
+            <span class="product-actual-price">₹499</span>
+            <span class="product-discount">( 50% off )</span>
+
+            <p class="product-sub-heading">select size</p>
+
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn">add to wishlist</button>
+        </div>
+    </section>
+</section>
+
+<section class="detail-des">
+    <h2 class="heading">description</h2>
+    <p class="des">Set of 2 PVC hex dumbbells for resistance training; each dumbbell weighs 1 kg *2 total 2kg weight Made in India
+Ideal for fitness classes or at-home workout routines Easy to store as they do not occupy a lot of space
+Easy grip and anti slip
+These durable hand weights are the perfect addition to aerobics and step workouts, as well as any standard strength training with weights for added intensity and resistance
+</p>
+</section>
+
+<div id="cartPopup" class="popup">
+    <div class="popup-content">
+        <span class="close-popup" onclick="closeCartPopup()">&times;</span>
+        <p>Your item has been successfully added to the cart.</p>
+    </div>
+</div>
+
+
+
+<footer>
+
+</footer>
+
+<script src="nav.js"></script>
+<script src="script.js"></script>
+<script src="product.js"></script>
+<script src="footer.js"></script>
+
+</body>
+</html>
